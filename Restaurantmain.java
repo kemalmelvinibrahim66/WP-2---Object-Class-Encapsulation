@@ -17,10 +17,12 @@ public class Restaurantmain {
 
         menu.setstock(1, -12);
 
+        System.out.println("=".repeat(38));
         menu.tampilMenuMakanan();
 
         menu.pesanMenu(1, 12);
-        
+
+        System.out.println("=".repeat(38));
         menu.tampilMenuMakanan();
     }
 }
