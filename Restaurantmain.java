@@ -13,13 +13,14 @@ public class Restaurantmain {
         menu.tambahMenuMakanan("Chicken Steak", 45000, 30); 
         menu.tampilMenuMakanan();
 
+        System.out.println("=".repeat(38));
         menu.setstock(2, 50);
-
         menu.setstock(1, -12);
 
         System.out.println("=".repeat(38));
         menu.tampilMenuMakanan();
 
+        System.out.println("=".repeat(38));
         menu.pesanMenu(1, 12);
 
         System.out.println("=".repeat(38));
